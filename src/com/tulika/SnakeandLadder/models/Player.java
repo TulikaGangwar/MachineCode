@@ -1,0 +1,20 @@
+
+package com.tulika.SnakeandLadder.models;
+import java.util.*;
+public class Player {
+    private String name;
+    private String id;
+    public Player(String name)
+    {
+        this.name=name;
+        this.id=UUID.randomUUID().toString();
+    }
+    public String getName()
+    {
+        return name;
+    }
+    public String getId()
+    {
+        return id;
+    }
+}
